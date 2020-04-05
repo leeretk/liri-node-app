@@ -1,13 +1,14 @@
 
 //https://www.npmjs.com/package/spotify-web-api-node//
 require("dotenv").config();
+var fs = require("fs");
+var keys = require("./keys.js");
 
-console.log(document.body.rootNode);
+console.log(document.body.module);
 
 //Set Variables
 var request = require("request");
-var fs = require("fs");
-var keys = require("./keys.js");
+
 var Spotify = require('spotify-web-api-node');
 var spotifyQry = new Spotify(keys.spotify);
 
