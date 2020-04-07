@@ -98,7 +98,7 @@ function showSongInfo(inputParameter) {
     );
 };
 
-//Funtion for Movie Info: OMDB
+//Function for Movie Info: OMDB
 function showMovieInfo(inputParameter){
     if (inputParameter === undefined) {
         inputParameter = "Mr. Nobody"

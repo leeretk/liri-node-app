@@ -4,7 +4,8 @@
 require("dotenv").config();
 var fs = require("fs");
 var keys = require("./keys.js");
-// var request = require("request");
+var request = require("request");
+var inquirer = require("inquirer");
 
 //*********************************************SPOTIFY********************************/
 //Set Variables
@@ -22,7 +23,7 @@ UserQuery(userQry, qryParameter);
 function UserQuery(userQry, qryParameter) {
   switch (userQry) {
     case 'concert-this':
-      concertThisInfo(qryParameter);
+      showConcertInfo(qryParameter);
       break;
     case 'song-this':
       showSpotifyInfo(qryParameter);
@@ -89,4 +90,62 @@ function showSpotifyInfo(qryParameter) {
 //data.tracks.items[0].name
 //*********************************************END SPOTIFY********************************/
 
+//Function Bands in Town
+function showConcertInfo(inputParameter){
+  var queryUrl = "https://rest.bandsintown.com/artists/" + inputParameter + "/events?app_id=codingbootcamp";
 
+  request(queryUrl, function(error, response, body) {
+  // If the request is successful
+  console.log(request);
+  if (!error && response.statusCode === 200) {
+      
+    var concerts = JSON.parse(body);
+    
+    for (var i = 0; i < concerts.length; i++) {  
+          console.log("**********EVENT INFO*********");  
+          console.log(i);
+          console.log("Name of the Venue: " + concerts[i].venue.name);
+          console.log("Venue Location: " +  concerts[i].venue.city);
+          console.log("Date of the Event: " +  concerts[i].datetime);
+          console.log("*****************************");
+
+          fs.appendFileSync("log.txt", "**********EVENT INFO*********\n");//Append in log.txt file
+          fs.appendFileSync("log.txt", i+"\n");
+          fs.appendFileSync("log.txt", "Name of the Venue: " + concerts[i].venue.name+"\n");
+          fs.appendFileSync("log.txt", "Venue Location: " +  concerts[i].venue.city+"\n");
+          fs.appendFileSync("log.txt", "Date of the Event: " +  concerts[i].datetime+"\n");
+          fs.appendFileSync("log.txt", "*****************************"+"\n");
+      }
+  } else{
+    console.log('Error occurred.');
+  }
+});}
+
+
+
+// Create a "Prompt" with a series of questions.
+inquirer
+  .prompt([
+    {
+      venue: "input",
+      message: "What venue are you searching for?",
+    },
+    {
+      venueLocation: "input",
+      message: "What venue location are you searching for?",
+    },
+    {
+      eventDate: "input",
+      message: "What concert dates are you searching for?",
+    }
+]).then(function(inquirerResponse) 
+{
+    if (inquirerResponse.venue) {
+      console.log("\nConcert Venue: " + inquirerResponse);
+    }
+    else {
+      console.log("\nThat's okay " + inquirerResponse + ", come again when you are more sure.\n");
+    }
+
+
+  });
