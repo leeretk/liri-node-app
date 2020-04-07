@@ -4,8 +4,6 @@ require("dotenv").config();
 var fs = require("fs");
 var keys = require("./keys.js");
 
-console.log(document.body.module);
-
 //Set Variables
 var request = require("request");
 
