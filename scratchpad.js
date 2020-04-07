@@ -21,7 +21,8 @@ function UserInputs (userOption, inputParameter){
         case 'concert-this':
             showConcertInfo(inputParameter);
             break;
-        case 'spotify-this-song':                                                                                                                               showSongInfo(inputParameter);
+        case 'spotify-this-song':
+            showSongInfo(inputParameter);
             break;
         case 'movie-this':
             showMovieInfo(inputParameter);
