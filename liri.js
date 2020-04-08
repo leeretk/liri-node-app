@@ -129,9 +129,7 @@ function showConcertInfo(qryParameter) {
 //*********************************************OMDB MOVIES********************************/
 //Function for Movie Info: OMDB
 function showMovieInfo(qryParameter) {
-
-  var queryUrl = "http://www.omdbapi.com/?t=" + qryParameter + "&y=&plot=short&apikey=b3c0b435";
-
+  
   if (qryParameter === undefined) {
     qryParameter = "Mr. Nobody" //default movie
     console.log("-----------------------");
@@ -142,46 +140,51 @@ function showMovieInfo(qryParameter) {
     fs.appendFileSync("log.txt", "It's on Netflix!\n");
   }
 
-  axios.get(queryUrl).then(
-    function (response) {
-      request(queryUrl, body, error);
-      var movies = JSON.parse(body);
+  var queryUrl = "http://www.omdbapi.com/?t=" + qryParameter + "&y=&plot=short&apikey=trilogy";
 
-      console.log("**********MOVIE INFO*********");
-      console.log("Title: " + movies.Title);
-      console.log("Release Year: " + movies.Year);
-      console.log("IMDB Rating: " + movies.imdbRating);
-      console.log("Country of Production: " + movies.Country);
-      console.log("Language: " + movies.Language);
-      console.log("Plot: " + movies.Plot);
-      console.log("Actors: " + movies.Actors);
-      console.log("*****************************");
-      console.log("The movie's rating is: " + response.data.imdbRating);
-      fs.appendFileSync("log.txt", "**********MOVIE INFO*********\n");
-      fs.appendFileSync("log.txt", "Title: " + movies.Title + "\n");
-      fs.appendFileSync("log.txt", "Release Year: " + movies.Year + "\n");
-      fs.appendFileSync("log.txt", "IMDB Rating: " + movies.imdbRating + "\n");
-      fs.appendFileSync("log.txt", "*****************************\n");
-      fs.appendFileSync("log.txt", "Actors: " + movies.Actors + "\n");
-      fs.appendFileSync("log.txt", "Language: " + movies.Language + "\n");
-      fs.appendFileSync("log.txt", "Plot: " + movies.Plot + "\n");
-      fs.appendFileSync("log.txt", "Country of Production: " + movies.Country + "\n");
-    })
-    .catch(function (error) {
-      if (error.response) {
-        console.log("---------------Data---------------");
-        console.log(error.response.data);
-        console.log("---------------Status---------------");
-        console.log(error.response.status);
-        console.log("---------------Status---------------");
-        console.log(error.response.headers);
-      } else if (error.request) {
-        console.log(error.request);
-      } else {
-        console.log("Error", error.message);
-      }
-      console.log(error.config);
-    }
+  axios.get(queryUrl).then(
+
+      function (response) { 
+        console.log("The movie's rating is: " + response.data.imdbRating);
+     
+        console.log(response);
+
+          console.log("**********MOVIE INFO*********");
+          console.log("Title: " + response.data.Title);
+          console.log("Release Year: " + response.data.Year);
+          console.log("IMDB Rating: " + response.data.imdbRating);
+          console.log("Country of Production: " + response.data.Country);
+          console.log("Language: " + response.data.Language);
+          console.log("Plot: " + response.Plot);
+          console.log("Actors: " + response.Actors);
+          console.log("*****************************");
+          console.log("The movie's rating is: " + response.data.imdbRating);
+          fs.appendFileSync("log.txt", "**********MOVIE INFO*********\n");
+          fs.appendFileSync("log.txt", "Title: " + response.Title + "\n");
+          fs.appendFileSync("log.txt", "Release Year: " + response.Year + "\n");
+          fs.appendFileSync("log.txt", "IMDB Rating: " + response.imdbRating + "\n");
+          fs.appendFileSync("log.txt", "*****************************\n");
+          fs.appendFileSync("log.txt", "Actors: " + response.Actors + "\n");
+          fs.appendFileSync("log.txt", "Language: " + response.Language + "\n");
+          fs.appendFileSync("log.txt", "Plot: " + response.Plot + "\n");
+          fs.appendFileSync("log.txt", "Country of Production: " + response.Country + "\n");
+        })
+
+        .catch(function (error) {
+          if (error.response) {
+            console.log("---------------Data---------------");
+            console.log(error.response.data);
+            console.log("---------------Status---------------");
+            console.log(error.response.status);
+            console.log("---------------Status---------------");
+            console.log(error.response.headers);
+          } else if (error.request) {
+            console.log(error.request);
+          } else {
+            console.log("Error", error.message);
+          }
+          console.log(error.config);
+        }
     );}
 
 
@@ -223,13 +226,3 @@ function showMovieInfo(qryParameter) {
 
 //   });
 
-
-
-
-
-//console.log(JSON.stringify(data,null,2));
-//data.tracks.items[0]
-//data.tracks.items[0].album.artists.name
-//data.tracks.items[0].album.name
-//data.tracks.items[0].preview_url
-//data.tracks.items[0].name

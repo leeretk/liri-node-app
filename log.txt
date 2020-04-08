@@ -496,3 +496,30 @@ Preview Song: null
 Album: My Beautiful Dark Twisted Fantasy
 Artist(s): Kanye West
 ********************************************
+**********MOVIE INFO*********
+Title: undefined
+Release Year: undefined
+IMDB Rating: undefined
+*****************************
+Actors: undefined
+Language: undefined
+Plot: undefined
+Country of Production: undefined
+**********MOVIE INFO*********
+Title: undefined
+Release Year: undefined
+IMDB Rating: undefined
+*****************************
+Actors: undefined
+Language: undefined
+Plot: undefined
+Country of Production: undefined
+**********MOVIE INFO*********
+Title: undefined
+Release Year: undefined
+IMDB Rating: undefined
+*****************************
+Actors: undefined
+Language: undefined
+Plot: undefined
+Country of Production: undefined

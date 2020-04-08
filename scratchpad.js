@@ -104,12 +104,13 @@ function showMovieInfo(inputParameter){
         inputParameter = "Mr. Nobody"
         console.log("-----------------------");
         fs.appendFileSync("log.txt", "-----------------------\n");
+        console.log("It's on Netflix!");
         console.log("If you haven't watched 'Mr. Nobody,' then you should: http://www.imdb.com/title/tt0485947/");
         fs.appendFileSync("log.txt", "If you haven't watched 'Mr. Nobody,' then you should: http://www.imdb.com/title/tt0485947/" +"\n");
-        console.log("It's on Netflix!");
         fs.appendFileSync("log.txt", "It's on Netflix!\n");
     }
     var queryUrl = "http://www.omdbapi.com/?t=" + inputParameter + "&y=&plot=short&apikey=b3c0b435";
+
     request(queryUrl, function(error, response, body) {
     // If the request is successful
     if (!error && response.statusCode === 200) {
