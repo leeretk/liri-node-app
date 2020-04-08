@@ -4,9 +4,9 @@
 require("dotenv").config();
 var fs = require("fs");
 var keys = require("./keys.js");
-var request = require("request");
 var inquirer = require("inquirer");
 var axios = require("axios");
+var moment = require("moment")
 
 //*********************************************SPOTIFY********************************/
 //Set Variables
@@ -45,8 +45,8 @@ function UserQuery(userQry, qryParameter) {
 };
 //Spotify
 function showSpotifyInfo(qryParameter) {
-  if (qryParameter === undefined) {
-    qryParameter = "Whiskey River"; //song default
+  if (qryParameter === "") {
+    qryParameter = "The Sign"; //song default
   }
   spotifyQry.search(
     {
@@ -60,6 +60,7 @@ function showSpotifyInfo(qryParameter) {
         return;
       }
       var songs = data.tracks.items;
+
       for (var i = 0; i < songs.length; i++) {
         console.log("********************************************");
         console.log("SPOTIFY SONG INFORMATION");
@@ -84,6 +85,7 @@ function showSpotifyInfo(qryParameter) {
         fs.appendFileSync("log.txt", "Album: " + songs[i].album.name + "\n");
         fs.appendFileSync("log.txt", "Artist(s): " + songs[i].artists[0].name + "\n");
         fs.appendFileSync("log.txt", "********************************************\n");
+        prompt();
       }
     }
   );
@@ -93,44 +95,64 @@ function showSpotifyInfo(qryParameter) {
 //*********************************************BANDS IN TOWN********************************/
 //Bands in Town Function
 function showConcertInfo(qryParameter) {
+
   var queryUrl = "https://rest.bandsintown.com/artists/" + qryParameter + "/events?app_id=codingbootcamp";
 
-  request(queryUrl, function (error, response, body) {
-    console.log(request);
-    if (!error && response.statusCode === 200) {
+  axios.get(queryUrl).then(
 
+    function (response) { 
+      //  console.log(response.data);
+    
+      if (response.data.length) {
 
-      var concerts = JSON.parse(body);
+        for (var i = 0; i < response.data.length; i++) {
 
-      // console.log(response);
-
-      for (var i = 0; i < concerts.length; i++) {
         console.log("**********EVENT INFO*********");
-        console.log(i);
-        console.log("Name of the Venue: " + concerts[i].venue.name);
-        console.log("Venue Location: " + concerts[i].venue.city);
-        console.log("Date of the Event: " + concerts[i].datetime);
+        // console.log(response.data[i]);
+        console.log("Name of the Venue: " +  response.data[i].venue.name);
+        console.log("Venue Location: " + response.data[i].venue.city);
+        
+        console.log("Date of the Event: " +  moment(response.data[i].datetime).format("MM/DD/YYYY"));
+        
         console.log("*****************************");
 
         fs.appendFileSync("log.txt", "**********EVENT INFO*********\n");//Append in log.txt file
         fs.appendFileSync("log.txt", i + "\n");
-        fs.appendFileSync("log.txt", "Name of the Venue: " + concerts[i].venue.name + "\n");
-        fs.appendFileSync("log.txt", "Venue Location: " + concerts[i].venue.city + "\n");
-        fs.appendFileSync("log.txt", "Date of the Event: " + concerts[i].datetime + "\n");
-        fs.appendFileSync("log.txt", "*****************************" + "\n");
+        fs.appendFileSync("log.txt", "Name of the Venue: " +  response.data[i].venue.name + "\n");
+        fs.appendFileSync("log.txt", "Venue Location: " + response.data[i].venue.city + "\n");
+        fs.appendFileSync("log.txt", "Date of the Event: " +  moment(response.data[i].datetime).format("MM/DD/YYYY") + "\n");      
+       fs.appendFileSync("log.txt", "*****************************" + "\n");
+       prompt();
       }
     } else {
       console.log('Error occurred.');
     }
-  });
-};
+  }).catch(function (error) {
+  
+  if (error.response) {
+      console.log("---------------Data---------------");
+      console.log(error.response.data);
+      console.log("---------------Status---------------");
+      console.log(error.response.status);
+      console.log("---------------Status---------------");
+      console.log(error.response.headers);
+    } else if (error.request) {
+      console.log(error.request);
+    } else {
+      console.log("Error", error.message);
+    }
+    console.log(error.config);
+  }
+)};
 //*********************************************END BANDS IN TOWN********************************/
 
 //*********************************************OMDB MOVIES********************************/
-//Function for Movie Info: OMDB
+//Function for Movie Info with Axios.
 function showMovieInfo(qryParameter) {
-  
-  if (qryParameter === undefined) {
+
+  console.log(qryParameter)
+
+  if (qryParameter === "") {
     qryParameter = "Mr. Nobody" //default movie
     console.log("-----------------------");
     console.log("If you haven't watched 'Mr. Nobody,' then you should: http://www.imdb.com/title/tt0485947/");
@@ -155,19 +177,24 @@ function showMovieInfo(qryParameter) {
           console.log("IMDB Rating: " + response.data.imdbRating);
           console.log("Country of Production: " + response.data.Country);
           console.log("Language: " + response.data.Language);
-          console.log("Plot: " + response.Plot);
-          console.log("Actors: " + response.Actors);
-          console.log("*****************************");
+          console.log("Plot: " + response.data.Plot);
+          console.log("Actors: " + response.data.Actors);
           console.log("The movie's rating is: " + response.data.imdbRating);
+          console.log("Rotten Tomatoes Rating: " + getRottenTomatoesRatingValue(response.data.Value));
+          console.log("*****************************");
+
           fs.appendFileSync("log.txt", "**********MOVIE INFO*********\n");
-          fs.appendFileSync("log.txt", "Title: " + response.Title + "\n");
-          fs.appendFileSync("log.txt", "Release Year: " + response.Year + "\n");
-          fs.appendFileSync("log.txt", "IMDB Rating: " + response.imdbRating + "\n");
+          fs.appendFileSync("log.txt", "Title: " + response.data.Title + "\n");
+          fs.appendFileSync("log.txt", "Release Year: " + response.data.Year + "\n");
+          fs.appendFileSync("log.txt", "IMDB Rating: " + response.data.imdbRating + "\n");
+          fs.appendFileSync("log.txt", "Country of Production: " + response.data.Country + "\n");
+          fs.appendFileSync("log.txt", "Actors: " + response.data.Actors + "\n");
+          fs.appendFileSync("log.txt", "Language: " + response.data.Language + "\n");
+          fs.appendFileSync("log.txt", "Plot: " + response.data.Plot + "\n");
+          fs.appendFileSync("log.txt", "Rotten Tomatoes Rating: " + getRottenTomatoesRatingValue(response.data.Value) + "\n");
           fs.appendFileSync("log.txt", "*****************************\n");
-          fs.appendFileSync("log.txt", "Actors: " + response.Actors + "\n");
-          fs.appendFileSync("log.txt", "Language: " + response.Language + "\n");
-          fs.appendFileSync("log.txt", "Plot: " + response.Plot + "\n");
-          fs.appendFileSync("log.txt", "Country of Production: " + response.Country + "\n");
+
+          prompt();
         })
 
         .catch(function (error) {
@@ -183,46 +210,153 @@ function showMovieInfo(qryParameter) {
           } else {
             console.log("Error", error.message);
           }
-          console.log(error.config);
+          console.log(error.config);        
         }
-    );}
+    );
+  }
 
+//Function for Rotten Tomatoes Info with Axios.
+function getRottenTomatoesRating(qryParameter) {
+
+  console.log(qryParameter)
+
+  if (qryParameter === "") {
+    qryParameter = "Mr. Nobody" //default movie
+    console.log("-----------------------");
+    console.log("If you haven't watched 'Mr. Nobody,' then you should: http://www.imdb.com/title/tt0485947/");
+    console.log("It's on Netflix!");
+    fs.appendFileSync("log.txt", "-----------------------\n");
+    fs.appendFileSync("log.txt", "If you haven't watched 'Mr. Nobody,' then you should: http://www.imdb.com/title/tt0485947/" + "\n");
+    fs.appendFileSync("log.txt", "It's on Netflix!\n");
+  }
+
+  var queryUrl = "https://developer.fandango.com/Rotten_Tomatoes/?t=" + qryParameter + "&y=&plot=short&apikey=trilogy";
+
+  axios.get(queryUrl).then(
+
+      function (response) { 
+        console.log("Rotten Tomatoes Rating: " + response.data.Ratings);
+     
+        console.log(response);
+
+          console.log("**********MOVIE INFO*********");
+          console.log("Rotten Tomatoes Rating: " + getRottenTomatoesRatingValue(response.data.Value));
+          fs.appendFileSync("log.txt", "Rotten Tomatoes Rating: " + getRottenTomatoesRatingValue(response.data.Value) + "\n");
+          prompt();
+        })
+
+        .catch(function (error) {
+          if (error.response) {
+            console.log("---------------Data---------------");
+            console.log(error.response.data);
+            console.log("---------------Status---------------");
+            console.log(error.response.status);
+            console.log("---------------Status---------------");
+            console.log(error.response.headers);
+          } else if (error.request) {
+            console.log(error.request);
+          } else {
+            console.log("Error", error.message);
+          }
+          console.log(error.config);        
+        }
+    );
+  }
+
+//*****************************************END OMDB MOVIES********************************/
+
+//Create a "Prompt" with a series of questions.
+function prompt() {
+
+  inquirer .prompt([
+{
+      type: "list",
+      name: "queryChoices",
+      message: "What would you like to search on?",
+      choices: [
+        "spotify-this-song",
+        "movie-this",
+        "concert-this",
+        "do-what-it-says",
+        "exit",
+      ]
+     }
+ ]).then(function(inquirerResponse) 
+{
+if (inquirerResponse.queryChoices === "spotify-this-song") {
+    console.log("\nChoice: " + inquirerResponse.queryChoices);
+
+    inquirer .prompt([
+      {
+            type: "input",
+            name: "songThis",
+            message: "What song would like to hear?"
+           }
+       ]).then(function(songResponse) 
+      {
+         console.log("\nSong Response: " + songResponse.songThis);
+         showSpotifyInfo(songResponse.songThis);
+      })
+    } else if (inquirerResponse.queryChoices === "movie-this") 
+    {
+      console.log("\nChoice: " + inquirerResponse.queryChoices);
+  
+      inquirer .prompt([
+        {
+              type: "input",
+              name: "movieThis",
+              message: "What move would like to see?"
+             }
+         ]).then(function(movieResponse) 
+        {
+           console.log("\nMovie Response: " + movieResponse.movieThis);
+           showMovieInfo(movieResponse.movieThis);
+        })
+    } else if (inquirerResponse.queryChoices === "concert-this") {
+        console.log("\nChoice: " + inquirerResponse.queryChoices);
+  
+        inquirer .prompt([
+          {
+                type: "input",
+                name: "concertThis",
+                message: "What artist or band would like to see?"
+               }
+           ]).then(function(concertResponse) 
+          {
+             console.log("\nConcert Response: " + concertResponse.concertThis);
+             showConcertInfo(concertResponse.concertThis);
+          })
+      } else if (inquirerResponse.queryChoices === "do-what-it-says") {
+
+      inquirer .prompt([
+        {
+              type: "input",
+              name: "whatItSaysThis",
+              message: "Ask me anything?"
+             }
+         ]).then(function(anyResponse) 
+        {
+           console.log("\nConcert Response: " + anyResponse.whatItSaysThis);
+           showSomeInfo(anyResponse.whatItSaysThis);
+        })
+    } else { 
+        console.log("all set")
+        process.exit();
+        }
+    }  
+);
+  }
+prompt();
 
 
 //function for reading out of random.txt file  
-// function showSomeInfo(){
-// fs.readFile('random.txt', 'utf8', function(err, data){
-//   if (err){ 
-//     return console.log(err);
-//   }
-//       var dataArr = data.split(',');
-//       UserInputs(dataArr[0], dataArr[1]);
-// });
-// }
-
-// // Create a "Prompt" with a series of questions.
-// inquirer
-//   .prompt([
-//     {
-//       venue: "input",
-//       message: "What venue are you searching for?",
-//     },
-//     {
-//       venueLocation: "input",
-//       message: "What venue location are you searching for?",
-//     },
-//     {
-//       eventDate: "input",
-//       message: "What concert dates are you searching for?",
-//     }
-// ]).then(function(inquirerResponse) 
-// {
-//     if (inquirerResponse.venue) {
-//       console.log("\nConcert Venue: " + inquirerResponse);
-//     }
-//     else {
-//       console.log("\nThat's okay " + inquirerResponse + ", come again when you are more sure.\n");
-//     }
-
-//   });
+function showSomeInfo(){
+	fs.readFile('random.txt', 'utf8', function(err, data){
+		if (err){ 
+			return console.log(err);
+		}
+        var dataArr = data.split(',');
+        UserInputs(dataArr[0], dataArr[1]);
+	});
+}
 

@@ -162,3 +162,15 @@ function showSomeInfo(){
         UserInputs(dataArr[0], dataArr[1]);
 	});
 }
+
+
+//function for reading out of random.txt file  
+// function showSomeInfo(){
+// fs.readFile('random.txt', 'utf8', function(err, data){
+//   if (err){ 
+//     return console.log(err);
+//   }
+//       var dataArr = data.split(',');
+//       UserInputs(dataArr[0], dataArr[1]);
+// });
+// }
