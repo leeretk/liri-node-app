@@ -43,7 +43,7 @@ LIRI is a _Language_ Interpretation and Recognition Interface. LIRI is a command
 ## SELECT Movie-this
 ![](https://github.com/leeretk/liri-node-app/blob/master/assets/images/moviethis.JPG) 
 
-## SELECT do-what-it-wants
+## SELECT do-what-it-says
 ![](https://github.com/leeretk/liri-node-app/blob/master/assets/images/dowhatitsays.JPG)
 
 5) Select Exit when you want to end the application
