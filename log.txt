@@ -910,3 +910,2487 @@ Name of the Venue: Madison Square Garden
 Venue Location: New York
 Date of the Event: 07/28/2020
 *****************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: whiskey river
+-----------------------------
+Song Name: Whiskey River
+0
+Preview Song: https://p.scdn.co/mp3-preview/a7fcb797a2c4e309ab7c9ed5e57965526421e1d0?cid=f89d482f59674bfc881a418c1508553a
+Album: Shotgun Willie
+Artist(s): Willie Nelson
+********************************************
+**********MOVIE INFO*********
+Title: Fight Club
+Release Year: 1999
+This Movie's rating is: 8.8
+Country of Production: USA, Germany
+Actors: Edward Norton, Brad Pitt, Meat Loaf, Zach Grenier
+Language: English
+Rotten Tomatoes Rating: 79%
+Plot: An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.
+*****************************
+**********EVENT INFO*********
+0
+Name of the Venue: Tacoma Dome
+Venue Location: Tacoma
+Date of the Event: 06/10/2020
+*****************************
+**********EVENT INFO*********
+1
+Name of the Venue: Moda Center
+Venue Location: Portland
+Date of the Event: 06/11/2020
+*****************************
+**********EVENT INFO*********
+2
+Name of the Venue: Golden 1 Center
+Venue Location: Sacramento
+Date of the Event: 06/13/2020
+*****************************
+**********EVENT INFO*********
+3
+Name of the Venue: SAP Center At San Jose
+Venue Location: San Jose
+Date of the Event: 06/16/2020
+*****************************
+**********EVENT INFO*********
+4
+Name of the Venue: The Forum
+Venue Location: Los Angeles
+Date of the Event: 06/18/2020
+*****************************
+**********EVENT INFO*********
+5
+Name of the Venue: T-Mobile Arena
+Venue Location: Las Vegas
+Date of the Event: 06/20/2020
+*****************************
+**********EVENT INFO*********
+6
+Name of the Venue: AT&T Center
+Venue Location: San Antonio
+Date of the Event: 06/23/2020
+*****************************
+**********EVENT INFO*********
+7
+Name of the Venue: American Airlines Center
+Venue Location: Dallas
+Date of the Event: 06/25/2020
+*****************************
+**********EVENT INFO*********
+8
+Name of the Venue: BOK Center
+Venue Location: Tulsa
+Date of the Event: 06/26/2020
+*****************************
+**********EVENT INFO*********
+9
+Name of the Venue: Scotiabank Arena
+Venue Location: Toronto
+Date of the Event: 07/10/2020
+*****************************
+**********EVENT INFO*********
+10
+Name of the Venue: Prudential Center
+Venue Location: Newark
+Date of the Event: 07/14/2020
+*****************************
+**********EVENT INFO*********
+11
+Name of the Venue: TD Garden
+Venue Location: Boston
+Date of the Event: 07/16/2020
+*****************************
+**********EVENT INFO*********
+12
+Name of the Venue: Little Caesers Arena
+Venue Location: Detroit
+Date of the Event: 07/19/2020
+*****************************
+**********EVENT INFO*********
+13
+Name of the Venue: United Center
+Venue Location: Chicago
+Date of the Event: 07/21/2020
+*****************************
+**********EVENT INFO*********
+14
+Name of the Venue: Enterprise Center
+Venue Location: St Louis
+Date of the Event: 07/23/2020
+*****************************
+**********EVENT INFO*********
+15
+Name of the Venue: Capital One Arena
+Venue Location: Washington, D.c.
+Date of the Event: 07/25/2020
+*****************************
+**********EVENT INFO*********
+16
+Name of the Venue: Madison Square Garden
+Venue Location: New York
+Date of the Event: 07/27/2020
+*****************************
+**********EVENT INFO*********
+17
+Name of the Venue: Madison Square Garden
+Venue Location: New York
+Date of the Event: 07/28/2020
+*****************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: "The Sign"
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: "The Sign"
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: "The Sign"
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: "The Sign"
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: "The Sign"
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: "The Sign"
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: "The Sign"
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: "The Sign"
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: "The Sign"
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: "The Sign"
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: "The Sign"
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: "The Sign"
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: "The Sign"
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: "The Sign"
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: "The Sign"
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: "The Sign"
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: "The Sign"
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: "The Sign"
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+**********EVENT INFO*********
+0
+Name of the Venue: Tacoma Dome
+Venue Location: Tacoma
+Date of the Event: 06/10/2020
+*****************************
+**********EVENT INFO*********
+1
+Name of the Venue: Moda Center
+Venue Location: Portland
+Date of the Event: 06/11/2020
+*****************************
+**********EVENT INFO*********
+2
+Name of the Venue: Golden 1 Center
+Venue Location: Sacramento
+Date of the Event: 06/13/2020
+*****************************
+**********EVENT INFO*********
+3
+Name of the Venue: SAP Center At San Jose
+Venue Location: San Jose
+Date of the Event: 06/16/2020
+*****************************
+**********EVENT INFO*********
+4
+Name of the Venue: The Forum
+Venue Location: Los Angeles
+Date of the Event: 06/18/2020
+*****************************
+**********EVENT INFO*********
+5
+Name of the Venue: T-Mobile Arena
+Venue Location: Las Vegas
+Date of the Event: 06/20/2020
+*****************************
+**********EVENT INFO*********
+6
+Name of the Venue: AT&T Center
+Venue Location: San Antonio
+Date of the Event: 06/23/2020
+*****************************
+**********EVENT INFO*********
+7
+Name of the Venue: American Airlines Center
+Venue Location: Dallas
+Date of the Event: 06/25/2020
+*****************************
+**********EVENT INFO*********
+8
+Name of the Venue: BOK Center
+Venue Location: Tulsa
+Date of the Event: 06/26/2020
+*****************************
+**********EVENT INFO*********
+9
+Name of the Venue: Scotiabank Arena
+Venue Location: Toronto
+Date of the Event: 07/10/2020
+*****************************
+**********EVENT INFO*********
+10
+Name of the Venue: Prudential Center
+Venue Location: Newark
+Date of the Event: 07/14/2020
+*****************************
+**********EVENT INFO*********
+11
+Name of the Venue: TD Garden
+Venue Location: Boston
+Date of the Event: 07/16/2020
+*****************************
+**********EVENT INFO*********
+12
+Name of the Venue: Little Caesers Arena
+Venue Location: Detroit
+Date of the Event: 07/19/2020
+*****************************
+**********EVENT INFO*********
+13
+Name of the Venue: United Center
+Venue Location: Chicago
+Date of the Event: 07/21/2020
+*****************************
+**********EVENT INFO*********
+14
+Name of the Venue: Enterprise Center
+Venue Location: St Louis
+Date of the Event: 07/23/2020
+*****************************
+**********EVENT INFO*********
+15
+Name of the Venue: Capital One Arena
+Venue Location: Washington, D.c.
+Date of the Event: 07/25/2020
+*****************************
+**********EVENT INFO*********
+16
+Name of the Venue: Madison Square Garden
+Venue Location: New York
+Date of the Event: 07/27/2020
+*****************************
+**********EVENT INFO*********
+17
+Name of the Venue: Madison Square Garden
+Venue Location: New York
+Date of the Event: 07/28/2020
+*****************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+**********EVENT INFO*********
+0
+Name of the Venue: Tacoma Dome
+Venue Location: Tacoma
+Date of the Event: 06/10/2020
+*****************************
+**********EVENT INFO*********
+1
+Name of the Venue: Moda Center
+Venue Location: Portland
+Date of the Event: 06/11/2020
+*****************************
+**********EVENT INFO*********
+2
+Name of the Venue: Golden 1 Center
+Venue Location: Sacramento
+Date of the Event: 06/13/2020
+*****************************
+**********EVENT INFO*********
+3
+Name of the Venue: SAP Center At San Jose
+Venue Location: San Jose
+Date of the Event: 06/16/2020
+*****************************
+**********EVENT INFO*********
+4
+Name of the Venue: The Forum
+Venue Location: Los Angeles
+Date of the Event: 06/18/2020
+*****************************
+**********EVENT INFO*********
+5
+Name of the Venue: T-Mobile Arena
+Venue Location: Las Vegas
+Date of the Event: 06/20/2020
+*****************************
+**********EVENT INFO*********
+6
+Name of the Venue: AT&T Center
+Venue Location: San Antonio
+Date of the Event: 06/23/2020
+*****************************
+**********EVENT INFO*********
+7
+Name of the Venue: American Airlines Center
+Venue Location: Dallas
+Date of the Event: 06/25/2020
+*****************************
+**********EVENT INFO*********
+8
+Name of the Venue: BOK Center
+Venue Location: Tulsa
+Date of the Event: 06/26/2020
+*****************************
+**********EVENT INFO*********
+9
+Name of the Venue: Scotiabank Arena
+Venue Location: Toronto
+Date of the Event: 07/10/2020
+*****************************
+**********EVENT INFO*********
+10
+Name of the Venue: Prudential Center
+Venue Location: Newark
+Date of the Event: 07/14/2020
+*****************************
+**********EVENT INFO*********
+11
+Name of the Venue: TD Garden
+Venue Location: Boston
+Date of the Event: 07/16/2020
+*****************************
+**********EVENT INFO*********
+12
+Name of the Venue: Little Caesers Arena
+Venue Location: Detroit
+Date of the Event: 07/19/2020
+*****************************
+**********EVENT INFO*********
+13
+Name of the Venue: United Center
+Venue Location: Chicago
+Date of the Event: 07/21/2020
+*****************************
+**********EVENT INFO*********
+14
+Name of the Venue: Enterprise Center
+Venue Location: St Louis
+Date of the Event: 07/23/2020
+*****************************
+**********EVENT INFO*********
+15
+Name of the Venue: Capital One Arena
+Venue Location: Washington, D.c.
+Date of the Event: 07/25/2020
+*****************************
+**********EVENT INFO*********
+16
+Name of the Venue: Madison Square Garden
+Venue Location: New York
+Date of the Event: 07/27/2020
+*****************************
+**********EVENT INFO*********
+17
+Name of the Venue: Madison Square Garden
+Venue Location: New York
+Date of the Event: 07/28/2020
+*****************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+**********EVENT INFO*********
+0
+Name of the Venue: Tacoma Dome
+Venue Location: Tacoma
+Date of the Event: 06/10/2020
+*****************************
+**********EVENT INFO*********
+1
+Name of the Venue: Moda Center
+Venue Location: Portland
+Date of the Event: 06/11/2020
+*****************************
+**********EVENT INFO*********
+2
+Name of the Venue: Golden 1 Center
+Venue Location: Sacramento
+Date of the Event: 06/13/2020
+*****************************
+**********EVENT INFO*********
+3
+Name of the Venue: SAP Center At San Jose
+Venue Location: San Jose
+Date of the Event: 06/16/2020
+*****************************
+**********EVENT INFO*********
+4
+Name of the Venue: The Forum
+Venue Location: Los Angeles
+Date of the Event: 06/18/2020
+*****************************
+**********EVENT INFO*********
+5
+Name of the Venue: T-Mobile Arena
+Venue Location: Las Vegas
+Date of the Event: 06/20/2020
+*****************************
+**********EVENT INFO*********
+6
+Name of the Venue: AT&T Center
+Venue Location: San Antonio
+Date of the Event: 06/23/2020
+*****************************
+**********EVENT INFO*********
+7
+Name of the Venue: American Airlines Center
+Venue Location: Dallas
+Date of the Event: 06/25/2020
+*****************************
+**********EVENT INFO*********
+8
+Name of the Venue: BOK Center
+Venue Location: Tulsa
+Date of the Event: 06/26/2020
+*****************************
+**********EVENT INFO*********
+9
+Name of the Venue: Scotiabank Arena
+Venue Location: Toronto
+Date of the Event: 07/10/2020
+*****************************
+**********EVENT INFO*********
+10
+Name of the Venue: Prudential Center
+Venue Location: Newark
+Date of the Event: 07/14/2020
+*****************************
+**********EVENT INFO*********
+11
+Name of the Venue: TD Garden
+Venue Location: Boston
+Date of the Event: 07/16/2020
+*****************************
+**********EVENT INFO*********
+12
+Name of the Venue: Little Caesers Arena
+Venue Location: Detroit
+Date of the Event: 07/19/2020
+*****************************
+**********EVENT INFO*********
+13
+Name of the Venue: United Center
+Venue Location: Chicago
+Date of the Event: 07/21/2020
+*****************************
+**********EVENT INFO*********
+14
+Name of the Venue: Enterprise Center
+Venue Location: St Louis
+Date of the Event: 07/23/2020
+*****************************
+**********EVENT INFO*********
+15
+Name of the Venue: Capital One Arena
+Venue Location: Washington, D.c.
+Date of the Event: 07/25/2020
+*****************************
+**********EVENT INFO*********
+16
+Name of the Venue: Madison Square Garden
+Venue Location: New York
+Date of the Event: 07/27/2020
+*****************************
+**********EVENT INFO*********
+17
+Name of the Venue: Madison Square Garden
+Venue Location: New York
+Date of the Event: 07/28/2020
+*****************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+**********EVENT INFO*********
+0
+Name of the Venue: Tacoma Dome
+Venue Location: Tacoma
+Date of the Event: 06/10/2020
+*****************************
+**********EVENT INFO*********
+1
+Name of the Venue: Moda Center
+Venue Location: Portland
+Date of the Event: 06/11/2020
+*****************************
+**********EVENT INFO*********
+2
+Name of the Venue: Golden 1 Center
+Venue Location: Sacramento
+Date of the Event: 06/13/2020
+*****************************
+**********EVENT INFO*********
+3
+Name of the Venue: SAP Center At San Jose
+Venue Location: San Jose
+Date of the Event: 06/16/2020
+*****************************
+**********EVENT INFO*********
+4
+Name of the Venue: The Forum
+Venue Location: Los Angeles
+Date of the Event: 06/18/2020
+*****************************
+**********EVENT INFO*********
+5
+Name of the Venue: T-Mobile Arena
+Venue Location: Las Vegas
+Date of the Event: 06/20/2020
+*****************************
+**********EVENT INFO*********
+6
+Name of the Venue: AT&T Center
+Venue Location: San Antonio
+Date of the Event: 06/23/2020
+*****************************
+**********EVENT INFO*********
+7
+Name of the Venue: American Airlines Center
+Venue Location: Dallas
+Date of the Event: 06/25/2020
+*****************************
+**********EVENT INFO*********
+8
+Name of the Venue: BOK Center
+Venue Location: Tulsa
+Date of the Event: 06/26/2020
+*****************************
+**********EVENT INFO*********
+9
+Name of the Venue: Scotiabank Arena
+Venue Location: Toronto
+Date of the Event: 07/10/2020
+*****************************
+**********EVENT INFO*********
+10
+Name of the Venue: Prudential Center
+Venue Location: Newark
+Date of the Event: 07/14/2020
+*****************************
+**********EVENT INFO*********
+11
+Name of the Venue: TD Garden
+Venue Location: Boston
+Date of the Event: 07/16/2020
+*****************************
+**********EVENT INFO*********
+12
+Name of the Venue: Little Caesers Arena
+Venue Location: Detroit
+Date of the Event: 07/19/2020
+*****************************
+**********EVENT INFO*********
+13
+Name of the Venue: United Center
+Venue Location: Chicago
+Date of the Event: 07/21/2020
+*****************************
+**********EVENT INFO*********
+14
+Name of the Venue: Enterprise Center
+Venue Location: St Louis
+Date of the Event: 07/23/2020
+*****************************
+**********EVENT INFO*********
+15
+Name of the Venue: Capital One Arena
+Venue Location: Washington, D.c.
+Date of the Event: 07/25/2020
+*****************************
+**********EVENT INFO*********
+16
+Name of the Venue: Madison Square Garden
+Venue Location: New York
+Date of the Event: 07/27/2020
+*****************************
+**********EVENT INFO*********
+17
+Name of the Venue: Madison Square Garden
+Venue Location: New York
+Date of the Event: 07/28/2020
+*****************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+**********EVENT INFO*********
+0
+Name of the Venue: Tacoma Dome
+Venue Location: Tacoma
+Date of the Event: 06/10/2020
+*****************************
+**********EVENT INFO*********
+1
+Name of the Venue: Moda Center
+Venue Location: Portland
+Date of the Event: 06/11/2020
+*****************************
+**********EVENT INFO*********
+2
+Name of the Venue: Golden 1 Center
+Venue Location: Sacramento
+Date of the Event: 06/13/2020
+*****************************
+**********EVENT INFO*********
+3
+Name of the Venue: SAP Center At San Jose
+Venue Location: San Jose
+Date of the Event: 06/16/2020
+*****************************
+**********EVENT INFO*********
+4
+Name of the Venue: The Forum
+Venue Location: Los Angeles
+Date of the Event: 06/18/2020
+*****************************
+**********EVENT INFO*********
+5
+Name of the Venue: T-Mobile Arena
+Venue Location: Las Vegas
+Date of the Event: 06/20/2020
+*****************************
+**********EVENT INFO*********
+6
+Name of the Venue: AT&T Center
+Venue Location: San Antonio
+Date of the Event: 06/23/2020
+*****************************
+**********EVENT INFO*********
+7
+Name of the Venue: American Airlines Center
+Venue Location: Dallas
+Date of the Event: 06/25/2020
+*****************************
+**********EVENT INFO*********
+8
+Name of the Venue: BOK Center
+Venue Location: Tulsa
+Date of the Event: 06/26/2020
+*****************************
+**********EVENT INFO*********
+9
+Name of the Venue: Scotiabank Arena
+Venue Location: Toronto
+Date of the Event: 07/10/2020
+*****************************
+**********EVENT INFO*********
+10
+Name of the Venue: Prudential Center
+Venue Location: Newark
+Date of the Event: 07/14/2020
+*****************************
+**********EVENT INFO*********
+11
+Name of the Venue: TD Garden
+Venue Location: Boston
+Date of the Event: 07/16/2020
+*****************************
+**********EVENT INFO*********
+12
+Name of the Venue: Little Caesers Arena
+Venue Location: Detroit
+Date of the Event: 07/19/2020
+*****************************
+**********EVENT INFO*********
+13
+Name of the Venue: United Center
+Venue Location: Chicago
+Date of the Event: 07/21/2020
+*****************************
+**********EVENT INFO*********
+14
+Name of the Venue: Enterprise Center
+Venue Location: St Louis
+Date of the Event: 07/23/2020
+*****************************
+**********EVENT INFO*********
+15
+Name of the Venue: Capital One Arena
+Venue Location: Washington, D.c.
+Date of the Event: 07/25/2020
+*****************************
+**********EVENT INFO*********
+16
+Name of the Venue: Madison Square Garden
+Venue Location: New York
+Date of the Event: 07/27/2020
+*****************************
+**********EVENT INFO*********
+17
+Name of the Venue: Madison Square Garden
+Venue Location: New York
+Date of the Event: 07/28/2020
+*****************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: The Sign
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************

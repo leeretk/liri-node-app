@@ -128,8 +128,15 @@ function showConcertInfo(qryParameter) {
         // prompt();
       }
       console.log(error.config);
-    }
-    )
+    });
+      const EventEmitter = require('events');
+      class MyEmitter extends EventEmitter {}
+      const myEmitter = new MyEmitter();
+      // increase the limit
+      myEmitter.setMaxListeners(20);
+      for(let i = 0; i < 20; i++) {
+        myEmitter.on('event', _ => console.log(i));
+      } myEmitter.emit('event');
 };
 //*********************************************END BANDS IN TOWN**************************/
 
@@ -270,15 +277,6 @@ function prompt() {
     }
   }
   );
-  const EventEmitter = require('events');
-
-  class MyEmitter extends EventEmitter {}
-  const myEmitter = new MyEmitter();
-  // increase the limit
-  myEmitter.setMaxListeners(5);
-   for(let i = 0; i < 5; i++) {
-    myEmitter.on('event', _ => console.log(i));
-  } myEmitter.emit('event');
 }
 prompt();
 //*****************************************END  PROMPTS ********************************/
@@ -293,4 +291,3 @@ function showSomeInfo() {
     UserQuery(dataArr[0], dataArr[1]);
   });
 }
-
