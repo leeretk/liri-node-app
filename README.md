@@ -30,20 +30,20 @@ LIRI is a _Language_ Interpretation and Recognition Interface. LIRI is a command
     -do-what-it-wants
     -exit
 
-        ![](https://github.com/leeretk/liri-node-app/blob/master/assets/images/node%20liri%20js.JPG) 
+![](https://github.com/leeretk/liri-node-app/blob/master/assets/images/node%20liri%20js.JPG) 
 
 4) When the Query returns the results the Questions appear again asking you to select another option.
 
-        ## SELECT Spotify-this-Song
-        ![](https://github.com/leeretk/liri-node-app/blob/master/assets/images/spotify%20this%20song.JPG) 
+## SELECT Spotify-this-Song
+![](https://github.com/leeretk/liri-node-app/blob/master/assets/images/spotify%20this%20song.JPG) 
 
-        ## SELECT Concert-this
-        ![](https://github.com/leeretk/liri-node-app/blob/master/assets/images/concerthis.JPG) 
+## SELECT Concert-this
+![](https://github.com/leeretk/liri-node-app/blob/master/assets/images/concerthis.JPG) 
 
-        ## SELECT Movie-this
-        ![](https://github.com/leeretk/liri-node-app/blob/master/assets/images/moviethis.JPG) 
+## SELECT Movie-this
+![](https://github.com/leeretk/liri-node-app/blob/master/assets/images/moviethis.JPG) 
 
-        ## SELECT do-what-it-wants
-        https://github.com/leeretk/liri-node-app/blob/master/assets/images/dowhatitsays.JPG
+## SELECT do-what-it-wants
+https://github.com/leeretk/liri-node-app/blob/master/assets/images/dowhatitsays.JPG
 
 5) Select Exit when you want to end the application
