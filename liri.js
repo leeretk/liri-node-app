@@ -1,5 +1,5 @@
 
-//*********************************************GLOBAL VARIABLES********************************/
+//*********************************************GLOBAL VARIABLES**************************/
 
 require("dotenv").config();
 var fs = require("fs");
@@ -39,8 +39,8 @@ function UserQuery(userQry, qryParameter) {
     case 'do-what-it-says':
       whatThisInfo(qryParameter);
       break;
-    default:
-      console.log("Invalid Option. Please type any of the following options: \nconcert-this \nspotify-this-song \nmovie-this \ndo-what-it-says")
+    // default:
+    //   console.log("Invalid Option. Please type any of the following options: \nconcert-this \nspotify-this-song \nmovie-this \ndo-what-it-says")
   }
 };
 //Spotify
@@ -92,62 +92,63 @@ function showSpotifyInfo(qryParameter) {
 };
 //*********************************************END SPOTIFY********************************/
 
-//*********************************************BANDS IN TOWN********************************/
-//Bands in Town Function
+//*********************************************BANDS IN TOWN******************************/
+//Bands in Town Function with Axios
 function showConcertInfo(qryParameter) {
 
   var queryUrl = "https://rest.bandsintown.com/artists/" + qryParameter + "/events?app_id=codingbootcamp";
 
   axios.get(queryUrl).then(
 
-    function (response) { 
+    function (response) {
       //  console.log(response.data);
-    
+
       if (response.data.length) {
 
         for (var i = 0; i < response.data.length; i++) {
 
-        console.log("**********EVENT INFO*********");
-        // console.log(response.data[i]);
-        console.log("Name of the Venue: " +  response.data[i].venue.name);
-        console.log("Venue Location: " + response.data[i].venue.city);
-        
-        console.log("Date of the Event: " +  moment(response.data[i].datetime).format("MM/DD/YYYY"));
-        
-        console.log("*****************************");
+          console.log("**********EVENT INFO*********");
+          // console.log(response.data[i]);
+          console.log("Name of the Venue: " + response.data[i].venue.name);
+          console.log("Venue Location: " + response.data[i].venue.city);
 
-        fs.appendFileSync("log.txt", "**********EVENT INFO*********\n");//Append in log.txt file
-        fs.appendFileSync("log.txt", i + "\n");
-        fs.appendFileSync("log.txt", "Name of the Venue: " +  response.data[i].venue.name + "\n");
-        fs.appendFileSync("log.txt", "Venue Location: " + response.data[i].venue.city + "\n");
-        fs.appendFileSync("log.txt", "Date of the Event: " +  moment(response.data[i].datetime).format("MM/DD/YYYY") + "\n");      
-       fs.appendFileSync("log.txt", "*****************************" + "\n");
-       prompt();
+          console.log("Date of the Event: " + moment(response.data[i].datetime).format("MM/DD/YYYY"));
+
+          console.log("*****************************");
+
+          fs.appendFileSync("log.txt", "**********EVENT INFO*********\n");//Append in log.txt file
+          fs.appendFileSync("log.txt", i + "\n");
+          fs.appendFileSync("log.txt", "Name of the Venue: " + response.data[i].venue.name + "\n");
+          fs.appendFileSync("log.txt", "Venue Location: " + response.data[i].venue.city + "\n");
+          fs.appendFileSync("log.txt", "Date of the Event: " + moment(response.data[i].datetime).format("MM/DD/YYYY") + "\n");
+          fs.appendFileSync("log.txt", "*****************************" + "\n");
+          prompt();
+        }
+      } else {
+        console.log('Error occurred.');
       }
-    } else {
-      console.log('Error occurred.');
+    }).catch(function (error) {
+
+      if (error.response) {
+        console.log("---------------Data---------------");
+        console.log(error.response.data);
+        console.log("---------------Status---------------");
+        console.log(error.response.status);
+        console.log("---------------Status---------------");
+        console.log(error.response.headers);
+      } else if (error.request) {
+        console.log(error.request);
+      } else {
+        console.log("Error", error.message);
+      }
+      console.log(error.config);
     }
-  }).catch(function (error) {
-  
-  if (error.response) {
-      console.log("---------------Data---------------");
-      console.log(error.response.data);
-      console.log("---------------Status---------------");
-      console.log(error.response.status);
-      console.log("---------------Status---------------");
-      console.log(error.response.headers);
-    } else if (error.request) {
-      console.log(error.request);
-    } else {
-      console.log("Error", error.message);
-    }
-    console.log(error.config);
-  }
-)};
-//*********************************************END BANDS IN TOWN********************************/
+    )
+};
+//*********************************************END BANDS IN TOWN**************************/
 
 //*********************************************OMDB MOVIES********************************/
-//Function for Movie Info with Axios.
+//SMovies with Axios
 function showMovieInfo(qryParameter) {
 
   console.log(qryParameter)
@@ -166,110 +167,99 @@ function showMovieInfo(qryParameter) {
 
   axios.get(queryUrl).then(
 
-      function (response) { 
-        console.log("The movie's rating is: " + response.data.imdbRating);
-     
-        console.log(response);
+    function (response) {
+      console.log("The movie's rating is: " + response.data.imdbRating);
 
-          console.log("**********MOVIE INFO*********");
-          console.log("Title: " + response.data.Title);
-          console.log("Release Year: " + response.data.Year);
-          console.log("IMDB Rating: " + response.data.imdbRating);
-          console.log("Country of Production: " + response.data.Country);
-          console.log("Language: " + response.data.Language);
-          console.log("Plot: " + response.data.Plot);
-          console.log("Actors: " + response.data.Actors);
-          console.log("The movie's rating is: " + response.data.imdbRating);
-          console.log("Rotten Tomatoes Rating: " + getRottenTomatoesRatingValue(response.data.Value));
-          console.log("*****************************");
+      // console.log(response);
 
-          fs.appendFileSync("log.txt", "**********MOVIE INFO*********\n");
-          fs.appendFileSync("log.txt", "Title: " + response.data.Title + "\n");
-          fs.appendFileSync("log.txt", "Release Year: " + response.data.Year + "\n");
-          fs.appendFileSync("log.txt", "IMDB Rating: " + response.data.imdbRating + "\n");
-          fs.appendFileSync("log.txt", "Country of Production: " + response.data.Country + "\n");
-          fs.appendFileSync("log.txt", "Actors: " + response.data.Actors + "\n");
-          fs.appendFileSync("log.txt", "Language: " + response.data.Language + "\n");
-          fs.appendFileSync("log.txt", "Plot: " + response.data.Plot + "\n");
-          fs.appendFileSync("log.txt", "Rotten Tomatoes Rating: " + getRottenTomatoesRatingValue(response.data.Value) + "\n");
-          fs.appendFileSync("log.txt", "*****************************\n");
+      console.log("**********MOVIE INFO*********");
+      console.log("Title: " + response.data.Title);
+      console.log("Release Year: " + response.data.Year);
+      console.log("IMDB Rating: " + response.data.imdbRating);
+      console.log("Country of Production: " + response.data.Country);
+      console.log("Language: " + response.data.Language);
+      console.log("Plot: " + response.data.Plot);
+      console.log("Actors: " + response.data.Actors);
+      console.log("The movie's rating is: " + response.data.imdbRating);
+      // console.log("Rotten Tomatoes Rating: " + getRottenTomatoes(response.data.Value));
+      console.log("*****************************");
 
-          prompt();
-        })
+      fs.appendFileSync("log.txt", "**********MOVIE INFO*********\n");
+      fs.appendFileSync("log.txt", "Title: " + response.data.Title + "\n");
+      fs.appendFileSync("log.txt", "Release Year: " + response.data.Year + "\n");
+      fs.appendFileSync("log.txt", "IMDB Rating: " + response.data.imdbRating + "\n");
+      fs.appendFileSync("log.txt", "Country of Production: " + response.data.Country + "\n");
+      fs.appendFileSync("log.txt", "Actors: " + response.data.Actors + "\n");
+      fs.appendFileSync("log.txt", "Language: " + response.data.Language + "\n");
+      fs.appendFileSync("log.txt", "Plot: " + response.data.Plot + "\n");
+      fs.appendFileSync("log.txt", "*****************************\n");
 
-        .catch(function (error) {
-          if (error.response) {
-            console.log("---------------Data---------------");
-            console.log(error.response.data);
-            console.log("---------------Status---------------");
-            console.log(error.response.status);
-            console.log("---------------Status---------------");
-            console.log(error.response.headers);
-          } else if (error.request) {
-            console.log(error.request);
-          } else {
-            console.log("Error", error.message);
-          }
-          console.log(error.config);        
-        }
+      prompt();
+    })
+
+    .catch(function (error) {
+      if (error.response) {
+        console.log("---------------Data---------------");
+        console.log(error.response.data);
+        console.log("---------------Status---------------");
+        console.log(error.response.status);
+        console.log("---------------Status---------------");
+        console.log(error.response.headers);
+      } else if (error.request) {
+        console.log(error.request);
+      } else {
+        console.log("Error", error.message);
+        prompt();
+      }
+      console.log(error.config);
+    }
     );
-  }
-
-//Function for Rotten Tomatoes Info with Axios.
-function getRottenTomatoesRating(qryParameter) {
-
-  console.log(qryParameter)
-
-  if (qryParameter === "") {
-    qryParameter = "Mr. Nobody" //default movie
-    console.log("-----------------------");
-    console.log("If you haven't watched 'Mr. Nobody,' then you should: http://www.imdb.com/title/tt0485947/");
-    console.log("It's on Netflix!");
-    fs.appendFileSync("log.txt", "-----------------------\n");
-    fs.appendFileSync("log.txt", "If you haven't watched 'Mr. Nobody,' then you should: http://www.imdb.com/title/tt0485947/" + "\n");
-    fs.appendFileSync("log.txt", "It's on Netflix!\n");
-  }
-
-  var queryUrl = "https://developer.fandango.com/Rotten_Tomatoes/?t=" + qryParameter + "&y=&plot=short&apikey=trilogy";
-
-  axios.get(queryUrl).then(
-
-      function (response) { 
-        console.log("Rotten Tomatoes Rating: " + response.data.Ratings);
-     
-        console.log(response);
-
-          console.log("**********MOVIE INFO*********");
-          console.log("Rotten Tomatoes Rating: " + getRottenTomatoesRatingValue(response.data.Value));
-          fs.appendFileSync("log.txt", "Rotten Tomatoes Rating: " + getRottenTomatoesRatingValue(response.data.Value) + "\n");
-          prompt();
-        })
-
-        .catch(function (error) {
-          if (error.response) {
-            console.log("---------------Data---------------");
-            console.log(error.response.data);
-            console.log("---------------Status---------------");
-            console.log(error.response.status);
-            console.log("---------------Status---------------");
-            console.log(error.response.headers);
-          } else if (error.request) {
-            console.log(error.request);
-          } else {
-            console.log("Error", error.message);
-          }
-          console.log(error.config);        
-        }
-    );
-  }
-
+}
 //*****************************************END OMDB MOVIES********************************/
 
+
+//*****************************************ROTTEN TOMATOES RATINGS********************************/
+//Rotten Tomatoes with Axios.
+// function getRottenTomatoes(qryParameter) {
+
+//   console.log(qryParameter)
+
+//   var queryUrl = "https://developer.fandango.com/Rotten_Tomatoes/?s=" + qryParameter + "&y=&plot=short&apikey=trilogy";
+
+//   axios.get(queryUrl).then(
+
+//     function (response) {
+//       console.log(response);
+//       console.log("Rotten Tomatoes Rating: " + response.data.Ratings);
+//       console.log("Rotten Tomatoes Rating: " + getRottenTomatoes(response.data.Value));
+//       fs.appendFileSync("log.txt", "Rotten Tomatoes Rating: " + getRottenTomatoes(response.data.Value) + "\n");
+//       prompt();
+//     }).catch(function (error) {
+
+//       if (error.response.statusCode === 200) {
+//         console.log("---------------Data---------------");
+//         console.log(error.response.data);
+//         console.log("---------------Status---------------");
+//         console.log(error.response.status);
+//         console.log("---------------Status---------------");
+//         console.log(error.response.headers);
+//       } else if (error.request) {
+//         console.log(error.request);
+//       } else {
+//         console.log("Error", error.message);
+//       }
+//       console.log(error.config);
+//     }
+//     );
+// }
+//*****************************************END ROTTEN TOMATOES RATINGS********************************/
+
+//*****************************************CREATE PROMPTS ********************************/
 //Create a "Prompt" with a series of questions.
 function prompt() {
 
-  inquirer .prompt([
-{
+  inquirer.prompt([
+    {
       type: "list",
       name: "queryChoices",
       message: "What would you like to search on?",
@@ -280,83 +270,89 @@ function prompt() {
         "do-what-it-says",
         "exit",
       ]
-     }
- ]).then(function(inquirerResponse) 
-{
-if (inquirerResponse.queryChoices === "spotify-this-song") {
-    console.log("\nChoice: " + inquirerResponse.queryChoices);
-
-    inquirer .prompt([
-      {
-            type: "input",
-            name: "songThis",
-            message: "What song would like to hear?"
-           }
-       ]).then(function(songResponse) 
-      {
-         console.log("\nSong Response: " + songResponse.songThis);
-         showSpotifyInfo(songResponse.songThis);
-      })
-    } else if (inquirerResponse.queryChoices === "movie-this") 
-    {
+    }
+  ]).then(function (inquirerResponse) {
+    if (inquirerResponse.queryChoices === "spotify-this-song") {
       console.log("\nChoice: " + inquirerResponse.queryChoices);
-  
-      inquirer .prompt([
-        {
-              type: "input",
-              name: "movieThis",
-              message: "What move would like to see?"
-             }
-         ]).then(function(movieResponse) 
-        {
-           console.log("\nMovie Response: " + movieResponse.movieThis);
-           showMovieInfo(movieResponse.movieThis);
-        })
-    } else if (inquirerResponse.queryChoices === "concert-this") {
-        console.log("\nChoice: " + inquirerResponse.queryChoices);
-  
-        inquirer .prompt([
-          {
-                type: "input",
-                name: "concertThis",
-                message: "What artist or band would like to see?"
-               }
-           ]).then(function(concertResponse) 
-          {
-             console.log("\nConcert Response: " + concertResponse.concertThis);
-             showConcertInfo(concertResponse.concertThis);
-          })
-      } else if (inquirerResponse.queryChoices === "do-what-it-says") {
 
-      inquirer .prompt([
+      inquirer.prompt([
         {
-              type: "input",
-              name: "whatItSaysThis",
-              message: "Ask me anything?"
-             }
-         ]).then(function(anyResponse) 
-        {
-           console.log("\nConcert Response: " + anyResponse.whatItSaysThis);
-           showSomeInfo(anyResponse.whatItSaysThis);
-        })
-    } else { 
-        console.log("all set")
-        process.exit();
+          type: "input",
+          name: "songThis",
+          message: "What song would like to hear?"
         }
-    }  
-);
-  }
-prompt();
+      ]).then(function (songResponse) {
+        console.log("\nSong Response: " + songResponse.songThis);
+        showSpotifyInfo(songResponse.songThis);
+      })
+    } else if (inquirerResponse.queryChoices === "movie-this") {
+      console.log("\nChoice: " + inquirerResponse.queryChoices);
 
+      inquirer.prompt([
+        {
+          type: "input",
+          name: "movieThis",
+          message: "What move would like to see?"
+        }
+      ]).then(function (movieResponse) {
+        console.log("\nMovie Response: " + movieResponse.movieThis);
+        showMovieInfo(movieResponse.movieThis);
+      })
+    } else if (inquirerResponse.queryChoices === "concert-this") {
+      console.log("\nChoice: " + inquirerResponse.queryChoices);
+
+      inquirer.prompt([
+        {
+          type: "input",
+          name: "concertThis",
+          message: "What artist or band would like to see?"
+        }
+      ]).then(function (concertResponse) {
+        console.log("\nConcert Response: " + concertResponse.concertThis);
+        showConcertInfo(concertResponse.concertThis);
+      })
+    } else if (inquirerResponse.queryChoices === "do-what-it-says") {
+
+      inquirer.prompt([
+        {
+          type: "input",
+          name: "whatItSaysThis",
+          message: "Ask me anything?"
+        }
+      ]).then(function (anyResponse) {
+        console.log("\nConcert Response: " + anyResponse.whatItSaysThis);
+        showSomeInfo(anyResponse.whatItSaysThis);
+      })
+    } else {
+      console.log("all set")
+      process.exit();
+    }
+  }
+  );
+}
+prompt();
+//*****************************************END  PROMPTS ********************************/
 
 //function for reading out of random.txt file  
-function showSomeInfo(){
-	fs.readFile('random.txt', 'utf8', function(err, data){
-		if (err){ 
-			return console.log(err);
-		}
-        var dataArr = data.split(',');
-        UserInputs(dataArr[0], dataArr[1]);
-	});
+function showSomeInfo() {
+  fs.readFile('random.txt', 'utf8', function (err, data) {
+    if (err) {
+      return console.log(err);
+    }
+    var dataArr = data.split(',');
+    UserInputs(dataArr[0], dataArr[1]);
+  });
 }
 
+//think I may need to add some code to handle the error I am getting related to event listeners. 
+// const EventEmitter = require('events');
+// class MyEmitter extends EventEmitter {}
+// const myEmitter = new MyEmitter();
+// // increase the limit
+// myEmitter.setMaxListeners(1);
+
+// for(let i = 0; i < 1; i++) {
+//   myEmitter.on('event', _ => console.log(i));
+// }
+
+// myEmitter.emit('event');
