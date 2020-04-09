@@ -57,5 +57,7 @@ LIRI is a _Language_ Interpretation and Recognition Interface. LIRI is a command
 
 ![](https://github.com/leeretk/liri-node-app/blob/master/assets/images/spotify%20this%20song.JPG) 
 
+![](https://github.com/leeretk/liri-node-app/blob/master/assets/images/dowhatitsays.JPG) 
+
 
 
