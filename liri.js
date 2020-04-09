@@ -266,10 +266,19 @@ function prompt() {
       })
     } else {
       console.log("all set")
-      process.exit(2);
+      process.exit();
     }
   }
   );
+  const EventEmitter = require('events');
+
+  class MyEmitter extends EventEmitter {}
+  const myEmitter = new MyEmitter();
+  // increase the limit
+  myEmitter.setMaxListeners(5);
+   for(let i = 0; i < 5; i++) {
+    myEmitter.on('event', _ => console.log(i));
+  } myEmitter.emit('event');
 }
 prompt();
 //*****************************************END  PROMPTS ********************************/
@@ -284,3 +293,4 @@ function showSomeInfo() {
     UserQuery(dataArr[0], dataArr[1]);
   });
 }
+
