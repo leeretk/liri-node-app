@@ -39,8 +39,6 @@ function UserQuery(userQry, qryParameter) {
     case 'do-what-it-says':
       whatThisInfo(qryParameter);
       break;
-    // default:
-    //   console.log("Invalid Option. Please type any of the following options: \nconcert-this \nspotify-this-song \nmovie-this \ndo-what-it-says")
   }
 };
 //Spotify
@@ -96,26 +94,17 @@ function showSpotifyInfo(qryParameter) {
 //Bands in Town Function with Axios
 function showConcertInfo(qryParameter) {
 
-  var queryUrl = "https://rest.bandsintown.com/artists/" + qryParameter + "/events?app_id=codingbootcamp";
+  var queryUrl = "https://rest.bandsintown.com/artists/" + qryParameter + "/events?app_id=codingbootcamp"
 
   axios.get(queryUrl).then(
-
     function (response) {
-      //  console.log(response.data);
-
       if (response.data.length) {
-
         for (var i = 0; i < response.data.length; i++) {
-
           console.log("**********EVENT INFO*********");
-          // console.log(response.data[i]);
           console.log("Name of the Venue: " + response.data[i].venue.name);
           console.log("Venue Location: " + response.data[i].venue.city);
-
           console.log("Date of the Event: " + moment(response.data[i].datetime).format("MM/DD/YYYY"));
-
           console.log("*****************************");
-
           fs.appendFileSync("log.txt", "**********EVENT INFO*********\n");//Append in log.txt file
           fs.appendFileSync("log.txt", i + "\n");
           fs.appendFileSync("log.txt", "Name of the Venue: " + response.data[i].venue.name + "\n");
@@ -128,7 +117,6 @@ function showConcertInfo(qryParameter) {
         console.log('Error occurred.');
       }
     }).catch(function (error) {
-
       if (error.response) {
         console.log("---------------Data---------------");
         console.log(error.response.data);
@@ -140,6 +128,7 @@ function showConcertInfo(qryParameter) {
         console.log(error.request);
       } else {
         console.log("Error", error.message);
+        // prompt();
       }
       console.log(error.config);
     }
@@ -168,35 +157,29 @@ function showMovieInfo(qryParameter) {
   axios.get(queryUrl).then(
 
     function (response) {
-      console.log("The movie's rating is: " + response.data.imdbRating);
-
-      // console.log(response);
-
       console.log("**********MOVIE INFO*********");
       console.log("Title: " + response.data.Title);
       console.log("Release Year: " + response.data.Year);
-      console.log("IMDB Rating: " + response.data.imdbRating);
+      console.log("The movie's rating is: " + response.data.imdbRating);
       console.log("Country of Production: " + response.data.Country);
       console.log("Language: " + response.data.Language);
-      console.log("Plot: " + response.data.Plot);
       console.log("Actors: " + response.data.Actors);
-      console.log("The movie's rating is: " + response.data.imdbRating);
-      // console.log("Rotten Tomatoes Rating: " + getRottenTomatoes(response.data.Value));
+      console.log("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value);
+      console.log("Plot: " + response.data.Plot);
       console.log("*****************************");
 
       fs.appendFileSync("log.txt", "**********MOVIE INFO*********\n");
       fs.appendFileSync("log.txt", "Title: " + response.data.Title + "\n");
       fs.appendFileSync("log.txt", "Release Year: " + response.data.Year + "\n");
-      fs.appendFileSync("log.txt", "IMDB Rating: " + response.data.imdbRating + "\n");
+      fs.appendFileSync("log.txt", "This Movie's rating is: " + response.data.imdbRating + "\n");
       fs.appendFileSync("log.txt", "Country of Production: " + response.data.Country + "\n");
       fs.appendFileSync("log.txt", "Actors: " + response.data.Actors + "\n");
       fs.appendFileSync("log.txt", "Language: " + response.data.Language + "\n");
+      fs.appendFileSync("log.txt", "Rotten Tomatoes Rating: " + response.data.Ratings[1].Value + "\n");
       fs.appendFileSync("log.txt", "Plot: " + response.data.Plot + "\n");
       fs.appendFileSync("log.txt", "*****************************\n");
-
       prompt();
     })
-
     .catch(function (error) {
       if (error.response) {
         console.log("---------------Data---------------");
@@ -209,50 +192,23 @@ function showMovieInfo(qryParameter) {
         console.log(error.request);
       } else {
         console.log("Error", error.message);
-        prompt();
+        // prompt();
       }
       console.log(error.config);
     }
     );
 }
+
 //*****************************************END OMDB MOVIES********************************/
 
-
-//*****************************************ROTTEN TOMATOES RATINGS********************************/
-//Rotten Tomatoes with Axios.
-// function getRottenTomatoes(qryParameter) {
-
-//   console.log(qryParameter)
-
-//   var queryUrl = "https://developer.fandango.com/Rotten_Tomatoes/?s=" + qryParameter + "&y=&plot=short&apikey=trilogy";
-
-//   axios.get(queryUrl).then(
-
-//     function (response) {
-//       console.log(response);
-//       console.log("Rotten Tomatoes Rating: " + response.data.Ratings);
-//       console.log("Rotten Tomatoes Rating: " + getRottenTomatoes(response.data.Value));
-//       fs.appendFileSync("log.txt", "Rotten Tomatoes Rating: " + getRottenTomatoes(response.data.Value) + "\n");
-//       prompt();
-//     }).catch(function (error) {
-
-//       if (error.response.statusCode === 200) {
-//         console.log("---------------Data---------------");
-//         console.log(error.response.data);
-//         console.log("---------------Status---------------");
-//         console.log(error.response.status);
-//         console.log("---------------Status---------------");
-//         console.log(error.response.headers);
-//       } else if (error.request) {
-//         console.log(error.request);
-//       } else {
-//         console.log("Error", error.message);
-//       }
-//       console.log(error.config);
-//     }
-//     );
+//run all of the parameters
+// function whatThisInfo() {
+//   if (userQry === "do-what-it-says") {
+//     showSpotifyInfo(qryParameter);
+//     showMovieInfo(qryParameter);
+//     showConcertInfo(qryParameter);
+//   }
 // }
-//*****************************************END ROTTEN TOMATOES RATINGS********************************/
 
 //*****************************************CREATE PROMPTS ********************************/
 //Create a "Prompt" with a series of questions.
@@ -325,7 +281,7 @@ function prompt() {
       })
     } else {
       console.log("all set")
-      process.exit();
+      process.exit(2);
     }
   }
   );
@@ -343,16 +299,3 @@ function showSomeInfo() {
     UserInputs(dataArr[0], dataArr[1]);
   });
 }
-
-//think I may need to add some code to handle the error I am getting related to event listeners. 
-// const EventEmitter = require('events');
-// class MyEmitter extends EventEmitter {}
-// const myEmitter = new MyEmitter();
-// // increase the limit
-// myEmitter.setMaxListeners(1);
-
-// for(let i = 0; i < 1; i++) {
-//   myEmitter.on('event', _ => console.log(i));
-// }
-
-// myEmitter.emit('event');
