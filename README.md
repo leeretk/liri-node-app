@@ -24,7 +24,7 @@ LIRI is a _Language_ Interpretation and Recognition Interface. LIRI is a command
 1) Open Liri command line node application
 2) Type in node liri.js
 
-* Insert Image of Selections
+*//////// Insert Image of Selections
 
 3) Select an option to:
     -Spotify-this-song

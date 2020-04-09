@@ -118,11 +118,8 @@ function showConcertInfo(qryParameter) {
       }
     }).catch(function (error) {
       if (error.response) {
-        console.log("---------------Data---------------");
         console.log(error.response.data);
-        console.log("---------------Status---------------");
         console.log(error.response.status);
-        console.log("---------------Status---------------");
         console.log(error.response.headers);
       } else if (error.request) {
         console.log(error.request);
@@ -182,11 +179,8 @@ function showMovieInfo(qryParameter) {
     })
     .catch(function (error) {
       if (error.response) {
-        console.log("---------------Data---------------");
         console.log(error.response.data);
-        console.log("---------------Status---------------");
         console.log(error.response.status);
-        console.log("---------------Status---------------");
         console.log(error.response.headers);
       } else if (error.request) {
         console.log(error.request);
@@ -202,13 +196,16 @@ function showMovieInfo(qryParameter) {
 //*****************************************END OMDB MOVIES********************************/
 
 //run all of the parameters
-// function whatThisInfo() {
-//   if (userQry === "do-what-it-says") {
-//     showSpotifyInfo(qryParameter);
-//     showMovieInfo(qryParameter);
-//     showConcertInfo(qryParameter);
-//   }
-// }
+function whatThisInfo(qryParameter) {
+  if (userQry === "do-what-it-says") {
+    showSpotifyInfo(qryParameter);
+    showMovieInfo(qryParameter);
+    showConcertInfo(qryParameter);
+  } else {
+    console.log("Do What is says was a success")
+    process.exit();
+  }
+}
 
 //*****************************************CREATE PROMPTS ********************************/
 //Create a "Prompt" with a series of questions.
