@@ -195,18 +195,6 @@ function showMovieInfo(qryParameter) {
 
 //*****************************************END OMDB MOVIES********************************/
 
-//run all of the parameters
-function whatThisInfo(qryParameter) {
-  if (userQry === "do-what-it-says") {
-    showSpotifyInfo(qryParameter);
-    showMovieInfo(qryParameter);
-    showConcertInfo(qryParameter);
-  } else {
-    console.log("Do What is says was a success")
-    process.exit();
-  }
-}
-
 //*****************************************CREATE PROMPTS ********************************/
 //Create a "Prompt" with a series of questions.
 function prompt() {
@@ -270,11 +258,11 @@ function prompt() {
         {
           type: "input",
           name: "whatItSaysThis",
-          message: "Ask me anything?"
+          message: "Do Whay It Says?"
         }
       ]).then(function (anyResponse) {
         console.log("\nConcert Response: " + anyResponse.whatItSaysThis);
-        showSomeInfo(anyResponse.whatItSaysThis);
+        showSomeInfo();
       })
     } else {
       console.log("all set")
