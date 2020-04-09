@@ -281,6 +281,6 @@ function showSomeInfo() {
       return console.log(err);
     }
     var dataArr = data.split(',');
-    userQry(dataArr[0], dataArr[1]);
+    UserQuery(dataArr[0], dataArr[1]);
   });
 }

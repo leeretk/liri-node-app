@@ -127,3 +127,14 @@ Name of the Venue: Madison Square Garden
 Venue Location: New York
 Date of the Event: 07/28/2020
 *****************************
+********************************************
+SPOTIFY SONG INFORMATION
+-----------------------------
+Query Parameter: "The Sign"
+-----------------------------
+Song Name: The Sign
+0
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f89d482f59674bfc881a418c1508553a
+Album: The Sign
+Artist(s): Ace of Base
+********************************************
