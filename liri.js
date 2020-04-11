@@ -8,6 +8,11 @@ var inquirer = require("inquirer");
 var axios = require("axios");
 var moment = require("moment")
 
+const emitter = new EventEmitter()
+require('events').EventEmitter.prototype._maxListeners = 100;
+
+
+
 //*********************************************SPOTIFY********************************/
 //Set Variables
 var Spotify = require('node-spotify-api');
@@ -129,14 +134,7 @@ function showConcertInfo(qryParameter) {
       }
       console.log(error.config);
     });
-      const EventEmitter = require('events');
-      class MyEmitter extends EventEmitter {}
-      const myEmitter = new MyEmitter();
-      // increase the limit
-      myEmitter.setMaxListeners(20);
-      for(let i = 0; i < 20; i++) {
-        myEmitter.on('event', _ => console.log(i));
-      } myEmitter.emit('event');
+   
 };
 //*********************************************END BANDS IN TOWN**************************/
 
