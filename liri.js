@@ -8,8 +8,8 @@ var inquirer = require("inquirer");
 var axios = require("axios");
 var moment = require("moment")
 
-const emitter = new EventEmitter()
-require('events').EventEmitter.prototype._maxListeners = 100;
+// const emitter = new EventEmitter()
+// require('events').EventEmitter.prototype._maxListeners = 100;
 
 
 
@@ -116,7 +116,6 @@ function showConcertInfo(qryParameter) {
           fs.appendFileSync("log.txt", "Venue Location: " + response.data[i].venue.city + "\n");
           fs.appendFileSync("log.txt", "Date of the Event: " + moment(response.data[i].datetime).format("MM/DD/YYYY") + "\n");
           fs.appendFileSync("log.txt", "*****************************" + "\n");
-          prompt();
         }
       } else {
         console.log('Error occurred.');
@@ -130,12 +129,11 @@ function showConcertInfo(qryParameter) {
         console.log(error.request);
       } else {
         console.log("Error", error.message);
-        // prompt();
       }
       console.log(error.config);
     });
-   
-};
+    prompt();
+ };
 //*********************************************END BANDS IN TOWN**************************/
 
 //*********************************************OMDB MOVIES********************************/
@@ -191,7 +189,6 @@ function showMovieInfo(qryParameter) {
         console.log(error.request);
       } else {
         console.log("Error", error.message);
-        // prompt();
       }
       console.log(error.config);
     }
@@ -288,4 +285,5 @@ function showSomeInfo() {
     var dataArr = data.split(',');
     UserQuery(dataArr[0], dataArr[1]);
   });
+  prompt();
 }
