@@ -16,7 +16,7 @@ var moment = require("moment")
 //*********************************************SPOTIFY********************************/
 //Set Variables
 var Spotify = require('node-spotify-api');
-console.log(keys.spotify)
+// console.log(keys.spotify)
 var spotifyQry = new Spotify(keys.spotify);
 
 //vars to capture input process.argv
