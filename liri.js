@@ -12,11 +12,10 @@ var moment = require("moment")
 // require('events').EventEmitter.prototype._maxListeners = 100;
 
 
-
 //*********************************************SPOTIFY********************************/
 //Set Variables
 var Spotify = require('node-spotify-api');
-// console.log(keys.spotify)
+
 var spotifyQry = new Spotify(keys.spotify);
 
 //vars to capture input process.argv
